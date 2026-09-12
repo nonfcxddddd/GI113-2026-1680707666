@@ -13,9 +13,9 @@ namespace Assignment01
     {
         static void Main(string[] args)
         {
-            const string GameTitle = "SOUL KITCHEN";
+            const string GameTitle = "GLOOMLADLE: SOUP OF THE LOST";
 
-            string chefName = "Kirin";
+            string chefName = "Zibblequork";
             char chefRank = 'B';
             int chefLevel = 12;
             int orderCapacity = 6;
@@ -23,8 +23,8 @@ namespace Assignment01
             double soulEnergy = 76.8;
             bool isCoopReady = true;
 
-            var signatureDish = "Moon Mushroom Soup";
-            var partnerName = "Mira";
+            var signatureDish = "Whispering Comet Broth";
+            var partnerName = "Murkspoon IX";
 
             // Implicit conversion: int to double, without a cast.
             double chefLevelAsDouble = chefLevel;
